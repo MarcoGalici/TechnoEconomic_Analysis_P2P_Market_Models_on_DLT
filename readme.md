@@ -70,37 +70,22 @@ Since the emergence of distributed energy resources, local electricity markets h
 <!-- Local flexibility market optimization model -->
 ### Local flexibility market optimization model
 ```math
-\min_{\delta p, \delta q, \alpha, \beta} \quad { \sum_{t=1}^{NT} [\sum_{f=1}^{NF} (C^{U_{P}}_{f,t} \cdot \Delta p^{U}_{f,t} + C^{D_{P}}_{f,t} \cdot \Delta p^{D}_{f,t}) + (C^{U_{Q}}_{f,t} \cdot \Delta q^{U}_{f,t} + C^{D_{Q}}_{f,t} \cdot \Delta q^{D}_{f,t}) + \sum_{i=1}^{N_{PB}} C^{\alpha} \cdot \left| \alpha_{i,t} \right| + \sum_{j=1}^{N_{CL}} C^{\beta} \cdot \left| \beta_{j,t} \right|] }
+\min_{p^{up}_{i}, p^{down}_{j}, s^{up}_{r}, s^{down}_{r}} \quad { \sum_{i=1}^{FSP_{up}} c^{up}_{i} \cdot p^{up}_{i} + \sum_{j=1}^{FSP_{down}} c^{down}_{j} \cdot p^{down}_{j} + \sum_{r=1}^{R} c^{slack} \cdot (s^{up}_{r} + s^{down}_{r})}
 ```
 ```math
-\textrm{Subject to:} \quad \Delta S^{CL}_{j,t} <= \sum_{f=1}^{NF} [K^{P}_{j,f} \cdot (\Delta p^{U}_{f,t} - \Delta p^{D}_{f,t}) + K^{Q}_{j,f} \cdot (\Delta q^{U}_{f,t} - \Delta q^{D}_{f,t})] \quad \forall j \in N_{CL} \quad \forall t \in NT
+\textrm{Subject to:} \quad P^{DSO_{up}}_{r} - \sum_{i=1}^{FSP_{up}} p^{up}_{i} - s^{up}_{r} <= 0 \quad \forall r \in R^{up}
 ```
 ```math
-\quad v^{B}_{i,t} - V^{A}_{i,t} = \sum_{f=1}^{NF} [H^{P}_{i,f} \cdot (\Delta p^{U}_{f,t} - \Delta p^{D}_{f,t}) + H^{Q}_{i,f} \cdot (\Delta q^{U}_{f,t} - \Delta q^{D}_{f,t})] \quad \forall i \in N_{PB} \quad \forall t \in NT
+\quad P^{DSO_{down}}_{r} - \sum_{j=1}^{FSP_{down}} p^{down}_{j} - s^{down}_{r} <= 0 \quad \forall r \in R^{down}
 ```
 ```math
-\quad V^{max} <= v^{B}_{i,t} <= V^{min} \quad \forall i \in N_{PB} \quad \forall t \in NT
+\quad p^{up_{min}}_{i} <= p^{up}_{i} <= p^{up_{max}}_{i} \quad \forall i \in FSP_{up}
 ```
 ```math
-\quad 0 <= \Delta p^{U}_{f,t} <= P^{U_{max}} \quad \forall f \in NF \quad \forall t \in NT
+\quad p^{down_{min}}_{j} <= p^{down}_{j} <= p^{down_{max}}_{j} \quad \forall j \in FSP_{down}
 ```
 ```math
-\quad 0 <= \Delta p^{D}_{f,t} <= P^{D_{max}} \quad \forall f \in NF \quad \forall t \in NT
-```
-```math
-\quad 0 <= \Delta q^{U}_{f,t} <= Q^{U_{max}} \quad \forall f \in NF \quad \forall t \in NT
-```
-```math
-\quad 0 <= \Delta q^{D}_{f,t} <= Q^{D_{max}} \quad \forall f \in NF \quad \forall t \in NT
-```
-```math
-\textrm{Where: } \quad {P^d_{i,t}, Q^d_{i,t}, SoC_{w,t}, P_{z,t}, Q_{z,t}, P^{cut}_{z,t}, P^{rb}_{z,t}, s^{pVoLV,d}_{i,t}, s^{qVoLV,d}_{i,t} \geq 0}
-```
-```math
-\quad {P^g_{i,t}, Q^g_{i,t}, P_{f,t}, s^{pVoLV,g}_{i,t}, s^{qVoLV,g}_{i,t} \leq 0}
-```
-```math
-\quad {- \infty \leq P_{w,t}, Q_{w,t}, Q_{f,t}, \Delta P_{i,t}, \Delta Q_{i,t}, P^{bus}_{i,t}, Q^{bus}_{i,t} \leq \infty}
+\textrm{Where: } \quad {p^{up}_{i}, p^{down}_{j}, s^{up}_{r}, s^{down}_{r} \geq 0}
 ```
 <p align="right"><a href="#top">🔼 Back to top</a></p>
 
