@@ -118,7 +118,7 @@ The UMEI represents an innovative, agnostic, adaptable, modular and evolutionary
 [contributors-url2]: https://www.iit.comillas.edu/personas/mgalici
 [contributors-shield3]: https://img.shields.io/badge/Contributors-Jose_Pablo_Chaves_Avila-skyblue
 [contributors-url3]: https://www.iit.comillas.edu/personas/jchaves
-[contributors-shield4]: https://img.shields.io/badge/Contributors-Orlando%20Mauricio-RoyalBlue
+[contributors-shield4]: https://img.shields.io/badge/Contributors-MorsyNour-RoyalBlue
 [contributors-url4]: https://www.iit.comillas.edu/personas/mmohammed
 [contributors-shield5]: https://img.shields.io/badge/Contributors-FabrizioPilo-darkviolet
 [contributors-url5]: https://web.unica.it/unica/it/ateneo_s07_ss01.page?contentId=SHD30679
