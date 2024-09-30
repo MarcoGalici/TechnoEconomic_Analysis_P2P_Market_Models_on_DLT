@@ -122,9 +122,9 @@ The UMEI represents an innovative, agnostic, adaptable, modular and evolutionary
 [contributors-url4]: https://www.iit.comillas.edu/personas/mmohammed
 [contributors-shield5]: https://img.shields.io/badge/Contributors-FabrizioPilo-darkviolet
 [contributors-url5]: https://web.unica.it/unica/it/ateneo_s07_ss01.page?contentId=SHD30679
-[license-shield]: https://img.shields.io/badge/License-BSD_3_Clause-yellow
-<!--https://img.shields.io/badge/License-MIT-yellow-->
-[license-url]: https://img.shields.io/badge/License-MIT-yellow
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow
+<!--https://img.shields.io/badge/License-BSD_3_Clause-yellow-->
+[license-url]: https://github.com/MarcoGalici/TechnoEconomic_Analysis_P2P_Market_Models_on_DLT/blob/main/LICENSE
 [product-screenshot]: images/screenshot.png
 [Python-shield]: https://img.shields.io/badge/Python-py-green
 [Python-url]: https://www.python.org/
