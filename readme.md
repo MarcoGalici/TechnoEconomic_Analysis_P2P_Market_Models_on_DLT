@@ -19,11 +19,9 @@
   <p align="center">
     Techno Economic Analysis of three Double Auction LEM developed on DLT platform.
     <br />
-    <a href="https://euniversal.eu/"><strong>Explore the Official website »</strong></a>
+    <a href="https://www.iit.comillas.edu/"><strong>Explore the IIT website »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
     <a href="https://github.com/MTr87/DEV_MRKT_MODELS/issues">Report Bug</a>
   </p>
 </div>
@@ -34,32 +32,29 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a>
+    <li><a href="#about-the-study">About The Study</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
-        <li><a href="#mathematical-formulation">The Optimisation Problems</a>
+        <li><a href="#mathematical-formulation">The Congestion Management Problem</a>
       <ul>
         <li><a href="#local-flexibility-market-optimization-model">Local Flexibility Market Optimization Model</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Study
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`-->
 <!-- Link for emoji https://www.webfx.com/tools/emoji-cheat-sheet/ -->
 
-The EUniversal project, funded by the European Union, has developed a universal approach on the use of flexibility by Distribution System Operators (DSO) and their interaction with the new flexibility markets, enabled through the development of the concept of the Universal Market Enabling Interface (UMEI) – a unique approach to foster interoperability across Europe.
-
-The UMEI represents an innovative, agnostic, adaptable, modular and evolutionary approach that will be the basis for the development of new innovative services, market solutions and, above all, implementing the real mechanisms for active consumer, prosumer, and energy communities participation in the energy transition.
+Since the emergence of distributed energy resources, local electricity markets have garnered interest for energy sharing on a community scale through both centralized and distributed models, including innovative distributed platforms. Numerous studies and initiatives have demonstrated that local markets and peer-to-peer transactions can be effective for electricity networks under specific conditions. Amidst the growing exploration of local market models, there is a noticeable gap in quantitative techno-economic analyses comparing different auction mechanisms. This paper aims at filling this gap by representing a comparative analysis of the most commonly implemented double-sided market models for peer-to-peer transactions based on a distributed ledger implementation. The comparison is based on quantitative key performance indicators designed to assess the economic and technical performance of these market models, including technical constraints within the power system through a network constraints management market. According to the selected metrics, the simulation results reveal that no single model outperforms all others. The authors conclude that, under the tested application and assumed conditions, the distributed market using distributed ledger technology faces several challenges that hinder its efficient application to local energy trading.
 
 
 <!-- Built With -->
