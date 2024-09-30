@@ -4,9 +4,6 @@
 [![Contributors][contributors-shield4]][contributors-url4]
 [![Contributors][contributors-shield5]][contributors-url5]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn 1st Author][linkedin-shield1]][linkedin-url-1st]
-[![LinkedIn 2nd Author][linkedin-shield2]][linkedin-url-2nd]
-[![LinkedIn 3rd Author][linkedin-shield3]][linkedin-url-3rd]
 
 
 
@@ -127,13 +124,7 @@ The UMEI represents an innovative, agnostic, adaptable, modular and evolutionary
 [contributors-url5]: https://web.unica.it/unica/it/ateneo_s07_ss01.page?contentId=SHD30679
 [license-shield]: https://img.shields.io/badge/License-BSD_3_Clause-yellow
 <!--https://img.shields.io/badge/License-MIT-yellow-->
-[license-url]: https://github.com/MTr87/MKT_Comparison/blob/main/LICENSE
-[linkedin-shield1]: https://img.shields.io/badge/LinkedIn-ID--Matteo%20Troncia-blue
-[linkedin-url-1st]: https://es.linkedin.com/in/matteotroncia
-[linkedin-shield2]: https://img.shields.io/badge/LinkedIn-ID--Marco%20Galici-lightgrey
-[linkedin-url-2nd]: https://it.linkedin.com/in/marco-galici-493069190
-[linkedin-shield3]: https://img.shields.io/badge/LinkedIn-ID--Jose_Pablo_Chaves_Avila-springgreen
-[linkedin-url-3rd]: https://www.linkedin.com/in/jose-pablo-chaves-avila-06774084
+[license-url]: https://img.shields.io/badge/License-MIT-yellow
 [product-screenshot]: images/screenshot.png
 [Python-shield]: https://img.shields.io/badge/Python-py-green
 [Python-url]: https://www.python.org/
